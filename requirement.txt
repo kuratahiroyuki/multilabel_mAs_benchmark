@@ -1,0 +1,14 @@
+# Python dependencies for mAs_benchmark_github
+# Recommended: Python 3.10 or 3.11
+# Install: python -m pip install -r requirement.txt
+#
+# PyTorch CPU/GPU wheels depend on your platform and CUDA version.
+# See https://pytorch.org/get-started/locally/ for GPU-specific installation.
+
+numpy>=1.24,<2.0
+pandas>=2.0,<3.0
+scipy>=1.10,<1.14
+scikit-learn>=1.3,<1.6
+torch>=2.1,<2.6
+gensim>=4.3.2,<4.4
+openpyxl>=3.1,<4.0
