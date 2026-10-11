@@ -51,6 +51,7 @@ Install a PyTorch build appropriate for your hardware if GPU acceleration is des
 
 ```bash
 # 1. Generate train/test splits and five-fold CV files
+unzip ./dataset_genomic_0.8/rmbase_mAs_genomic_cdhit_priority_soft_nr_0.8.zip -d ./dataset_genomic_0.8
 bash make_data.sh
 
 # 2. Train, validate, and test CNN–BiGRU–Attention across folds
@@ -62,7 +63,7 @@ bash evaluation.sh
 
 ### 1. Dataset construction
 
-First, unzip ./dataset_genomic0.8/rmbase_mAs_genomic_cdhit_priority_soft_nr_0.8.zip
+unzip ./dataset_genomic_0.8/rmbase_mAs_genomic_cdhit_priority_soft_nr_0.8.zip -d ./dataset_genomic_0.8
 
 `make_data.sh` runs `split_dataset.py` with these settings:
 
