@@ -62,6 +62,8 @@ bash evaluation.sh
 
 ### 1. Dataset construction
 
+First, unzip ./dataset_genomic0.8/rmbase_mAs_genomic_cdhit_priority_soft_nr_0.8.zip
+
 `make_data.sh` runs `split_dataset.py` with these settings:
 
 | Parameter | Value | Meaning |
